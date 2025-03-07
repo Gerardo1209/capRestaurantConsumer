@@ -1,5 +1,8 @@
 package com.capgemini.bootcamp.java.excersicetwo.domain.entity;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class ProductEntity {
 
     private long id;

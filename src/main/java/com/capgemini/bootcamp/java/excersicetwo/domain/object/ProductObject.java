@@ -99,6 +99,7 @@ public class ProductObject {
                 ", description='" + description + '\'' +
                 ", price=" + price +
                 ", image='" + image + '\'' +
+                ", retrieved=" + retrieved +
                 '}';
     }
 }
