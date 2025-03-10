@@ -65,7 +65,7 @@ public class ProductEntity {
         this.image = image;
     }
 
-    @Override
+    /*@Override
     public String toString() {
         return "ProductEntity{" +
                 "id=" + id +
@@ -74,5 +74,5 @@ public class ProductEntity {
                 ", price=" + price +
                 ", image='" + image + '\'' +
                 '}';
-    }
+    }*/
 }

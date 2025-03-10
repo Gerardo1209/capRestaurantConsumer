@@ -91,7 +91,7 @@ public class ProductObject {
         this.retrieved = retrieved;
     }
 
-    @Override
+    /*@Override
     public String toString() {
         return "ProductObject{" +
                 "id=" + id +
@@ -101,5 +101,5 @@ public class ProductObject {
                 ", image='" + image + '\'' +
                 ", retrieved=" + retrieved +
                 '}';
-    }
+    }*/
 }

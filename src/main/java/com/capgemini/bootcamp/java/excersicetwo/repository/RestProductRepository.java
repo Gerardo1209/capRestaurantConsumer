@@ -39,7 +39,7 @@ public class RestProductRepository implements ProductRepository {
         return List.of(result.getBody());
     }
 
-    private HttpHeaders createHttpHeaders(String username, String password){
+    protected HttpHeaders createHttpHeaders(String username, String password){
                 return new HttpHeaders(){{
                     String auth = username + ":" + password;
                     byte[] encodedAuth = Base64.encode(auth.getBytes(StandardCharsets.US_ASCII));

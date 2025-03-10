@@ -26,4 +26,9 @@ public class ProductController {
         return ResponseEntity.ok(this.productService.getProductsRest());
     }
 
+    @GetMapping("/feing")
+    public ResponseEntity<List<ProductObject>> getProductObjectFeing(){
+        return ResponseEntity.ok(this.productService.getProductsFeing());
+    }
+
 }

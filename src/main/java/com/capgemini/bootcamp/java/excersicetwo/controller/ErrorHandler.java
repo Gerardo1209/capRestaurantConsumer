@@ -46,4 +46,5 @@ public class ErrorHandler {
 
         return new ResponseEntity<>(errorResponse, HttpStatus.BAD_REQUEST);
     }
+
 }
